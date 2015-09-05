@@ -38,14 +38,14 @@ function bootstrapWorker (api, config, next) {
 /* istanbul ignore if */
 if (require.main === module) {
   var config = require('../config')();
-  require('../../api')(config, function (err, api) {
+  require('seguir')(config, function (err, api) {
     if (err) { return process.exit(0); }
     bootstrapWorker(api, config);
   });
 } else {
   // Used for testing
   module.exports = function (config, next) {
-    require('../../api')(config, function (err, api) {
+    require('seguir')(config, function (err, api) {
       if (err) {
         return next(new Error('Unable to bootstrap API: ' + err.message));
       }

@@ -8,7 +8,7 @@
     "worker": "node server/worker",
     "seguir": "node ./bin/seguir",
     "lint": "semistandard",
-    "test": "istanbul cover _mocha -- -b -R spec tests/server/*",
+    "test": "istanbul cover _mocha -- -b -R spec tests/server/* tests/worker/*",
     "docs": "DATABASE=cassandra mocha -b tests/server/server.test.js --write-samples && apidoc -i . -e node_modules\\|client -o doc/server; apidoc -i client -o doc/client;",
     "precommit": "semistandard"
   },
