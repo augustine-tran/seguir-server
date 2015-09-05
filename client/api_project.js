@@ -1,0 +1,1 @@
+define({  "name": "seguir-server",  "version": "0.10.8",  "description": "Server and client for self-hosted social network backend and API",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2015-09-05T12:52:30.598Z",    "url": "http://apidocjs.com",    "version": "0.13.1"  }});
