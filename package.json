@@ -35,7 +35,7 @@
     "moment": "^2.9.0",
     "restify": "^3.0.3",
     "handlebars": "^3.0.3",
-    "seguir": "^0.11.1",
+    "seguir": "^0.11.2",
     "sanitize-html": "^1.5.3",
     "string-template": "^0.2.0"
   },
