@@ -432,7 +432,7 @@ Seguir.prototype.getFollow = function (liu, follow, next) {
  */
 
 /**
- * @api {function} addPost(liu,content,posted,visibility,next) addPost
+ * @api {function} addPost(liu, content, content_type, posted, visibility, altid, next) addPost
  * @apiName addPost
  * @apiGroup Posts
  * @apiVersion 1.0.0
