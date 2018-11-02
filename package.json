@@ -1,6 +1,6 @@
 {
   "name": "seguir-server",
-  "version": "0.11.4",
+  "version": "1.0.0",
   "description": "Server and client for self-hosted social network backend and API",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "moment": "^2.9.0",
     "restify": "^3.0.3",
     "handlebars": "^3.0.3",
-    "seguir": "^0.11.2",
+    "seguir": "^1.0.2",
     "sanitize-html": "^1.5.3",
     "string-template": "^0.2.0"
   },
